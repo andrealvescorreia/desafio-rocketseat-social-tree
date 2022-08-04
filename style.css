@@ -1,7 +1,7 @@
 * {/* Reset CSS. */
     margin: 0;/* margem: distância "para fora" em um elemento. */
     padding: 0;/* preenchimento: distância "para dentro" em um elemento. */
-    box-sizing: border-box; /**/
+    box-sizing: border-box;
     text-decoration: none;/* sem decorações*/
 
 }
@@ -19,7 +19,7 @@ body{
 
 
 html,body{
-    /*height: 100%;*/
+
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -28,11 +28,11 @@ html,body{
 
 
 .conteudo-primario-foto{
-    margin-top:150px;
-    height: 150px;
+    margin-top:100px;
+    height: 9.4rem;
     padding: 0.2rem;
     border-radius: 100%;
-    border: 0.1rem solid var(--purple);
+    border: 0.15rem solid var(--purple);
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -42,9 +42,13 @@ html,body{
 
 
 .instagram{
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: block;
     text-align: center;
     color: var(--purple);
+    font-size: .75rem;
+    font-weight: normal;
 }
 
 div.container {
@@ -66,14 +70,21 @@ ul.links{
     margin: 1rem;
     width: 250px;
     height: 40px;
-    border: 0.1rem solid var(--purple);
+    border: 0.15rem solid var(--purple);
+    border-radius: 0.3rem;
     color: var(--purple);
+    font-size: .75rem;
+    font-weight: bold;
 }
 
 ul.socialLinks{
     margin: 0;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 2.5rem;
+    gap: 1.5rem;
+}
+.socialLinks-img{
+    height: 18px;
 }
