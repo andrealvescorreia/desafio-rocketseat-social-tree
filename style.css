@@ -1,8 +1,8 @@
 * {/* Reset CSS. */
-    margin: 0;/* margem: distância "para fora" em um elemento. */
-    padding: 0;/* preenchimento: distância "para dentro" em um elemento. */
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    text-decoration: none;/* sem decorações*/
+    text-decoration: none;
 
 }
 
@@ -10,6 +10,7 @@
 :root {
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
+    --hover-color: #bb99dd26;
 }
 
 body{
@@ -76,6 +77,12 @@ ul.links{
     color: var(--purple);
     font-size: .75rem;
     font-weight: bold;
+}
+
+/* hover: é uma pseudoclasse que é usada para adicionar efeitos a uma box
+ quando o usuário passa o mouse em cima dela. */
+.links-link:hover{
+    background-color: var(--hover-color);
 }
 
 ul.socialLinks{
